@@ -2,112 +2,774 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.js</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <main className="overflow-x-hidden">
+      <header className="w-full px-[40px] py-[20px] border-b-[1px] fixed top-0 left-0 bg-white z-50">
+        <div className="flex items-center justify-between ">
+          <h3 className="font-open text-[24px] text-[#00B4D8] font-semibold text-left">
+            {"<dE/>"}
+          </h3>
+          <nav>
+            <a
+              href="#home"
+              className="mr-[40px] text-[16px] hover:text-[#00B4D8] hidden tt:inline-block"
+            >
+              Home
+            </a>
+            <a
+              href="#about"
+              className="mr-[40px] text-[16px] hover:text-[#00B4D8] hidden tt:inline-block"
+            >
+              About
+            </a>
+            <a
+              href="#projects"
+              className="mr-[40px] text-[16px] hover:text-[#00B4D8] hidden tt:inline-block"
+            >
+              Projects
+            </a>
+            <button
+              href="#contact"
+              className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px]"
+            >
+              <a href="#contact">Contact me</a>
+            </button>
+          </nav>
         </div>
-      </div>
+      </header>
 
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-full sm:before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-full sm:after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
+      <section
+        className="bg-image bg-contain w-dvw h-dvh bg-no-repeat bg-position-bottom bg-center flex justify-center items-center overflow-y-hidden"
+        id="home"
+      >
+        <div className="relative w-10/12 tt:w-3/4 lt:w-2/5 flex justify-center items-center flex-col">
+          <div className="w-full">
+            <h3 className="font-open text-[24px] text-[#00B4D8] font-semibold text-center">
+              dev Edward T
+            </h3>
+          </div>
+          <div className="w-full">
+            <h1 className="font-open text-[40px] lt:text-[48px] dt:text-[64px] font-bold tracking-wide text-center">
+              Frontend Developer & UI UX Designer
+            </h1>
+          </div>
+          <button
+            href="#"
+            className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px]"
+          >
+            <a href="#projects">Projects →</a>
+          </button>
+        </div>
+      </section>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
+      <section
+        className="py-[120px] justify-center items-center bg-black relative overflow-y-hidden overflow-x-hidden"
+        id="about"
+      >
+        <div className="flex justify-center items-center flex-col">
+          <h3 className="font-open text-[28px] text-white font-bold text-center">
+            About me
+          </h3>
+          <Image
+            className="mt-[16px]"
+            src="/Vector.svg"
+            alt="Vector"
+            width={42}
+            height={10}
+            priority
+          />
+          <div className="flex justify-center items-center mt-[64px]">
+            <div className="flex justify-center items-center flex-col">
+              <div className="flex flex-col tt:flex-row justify-center items-center">
+                <div className="w-[300px] bg-white p-[20px] rounded-[16px] mb-[20px] tt:mb-[0px] tt:mr-[20px] z-20">
+                  <Image
+                    className="mb-[24px]"
+                    src="/WD.svg"
+                    alt="WD"
+                    width={50}
+                    height={50}
+                    priority
+                  />
+                  <h4 className="font-open text-[18px] text-black font-semibold mb-[12px]">
+                    Web Development
+                  </h4>
+                  <p className="text-[#495057] tracking-[0.5px] leading-[26px]">
+                    💻 I'm a web developer specializing in HTML, CSS,
+                    JavaScript, React, and Next.js, along with a bunch of other
+                    tools such as Firebase, Node.Js, PostgreSQL, Tailwind CSS,
+                    Chakra UI, Sass, Bootstrap, React Hook Form, Redux, Regex
+                    and other popular libraries and technologies.
+                  </p>
+                </div>
+                <div className="flex justify-center items-center flex-col">
+                  <div className="w-[300px] bg-white p-[20px] rounded-[16px] mb-[20px] z-20">
+                    <Image
+                      className="mb-[24px]"
+                      src="/UI.svg"
+                      alt="UI"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <h4 className="font-open text-[18px] text-black font-semibold mb-[12px]">
+                      UI/UX Design
+                    </h4>
+                    <p className="tracking-[0.5px] leading-[26px]">
+                      🎨 In addition to my technical skills, I'm also passionate
+                      about UI/UX design.
+                    </p>
+                  </div>
+                  <div className="w-[300px] bg-white p-[20px] rounded-[16px] z-20">
+                    <Image
+                      className="mb-[24px]"
+                      src="/MP.svg"
+                      alt="MP"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <h4 className="font-open text-[18px] text-black font-semibold mb-[12px]">
+                      Music Production
+                    </h4>
+                    <p className="dt:text-[#495057] tracking-[0.5px] leading-[26px]">
+                      🎹 Outside of the digital realm, I enjoy exploring the
+                      world of music production.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <h3 className="text-[#ffffff] dt:text-[#ADB5BD] text-center tracking-[0.5px] text-[24px] mt-[80px] z-20 shadow-[0_8px_30px_rgb(0,0,0,0.12)] p-[8px] rounded-full">
+            ✨ Let's collaborate and bring your vision to life.
+          </h3>
+          <h4 className="text-[#ffffff] dt:text-[#ADB5BD] text-center tracking-[0.5px] text-[16px] mt-[8px] z-20 shadow-[0_8px_30px_rgb(0,0,0,0.12)] p-[8px] rounded-full">
+            Together, we can create something extraordinary!
+          </h4>
+          <button
+            href="#"
+            className="bg-white text-black hover:bg-[#00B4D8] hover:text-[white] font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px] z-20"
+          >
+            <a href="#contact">Contact me →</a>
+          </button>
+        </div>
+        <div className="w-[800px] h-[600px] rounded-[16px] absolute rotate-12 top-64 -left-80 z-[1] bg-gradient-to-r from-[#00B4D8] to-[#4DB6AC]"></div>
+        <div className="w-[800px] h-[600px] rounded-[16px] absolute rotate-12 top-64 -right-80 z-[1]  bg-gradient-to-r from-[#F72B1E] to-[#D27E00] hidden lt:inline-block"></div>
+      </section>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
+      <section
+        className="py-[120px] justify-center items-center bg-white relative overflow-y-hidden overflow-x-hidden"
+        id="projects"
+      >
+        <div className="flex justify-center items-center flex-col">
+          <h3 className="font-open text-[28px] text-black font-bold text-center">
+            My projects
+          </h3>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
+          <Image
+            className="mt-[16px]"
+            src="/Vector.svg"
+            alt="Vector"
+            width={42}
+            height={10}
+            priority
+          />
+          <div className="flex flex-col dt:flex-row mt-[120px] items-center">
+            <div className="mb-[40px] flex flex-col items-center dt:items-start">
+              <div className="flex flex-col text-left ">
+                <h3 className="font-open text-[28px] text-black font-regular text-center dt:text-left mb-[8px]">
+                  Artisan
+                </h3>
+                <h4 className="font-open text-[18px] text-[#00B4D8] font-regular text-center dt:text-left">
+                  Invoice & Stock Management
+                </h4>
+              </div>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50 text-balance`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+              <div className="flex justify-evenly mt-[40px] flex-col tt:flex-row">
+                <div className="flex flex-col mr-[64px]">
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/React.png"
+                      alt="React"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      React
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Hook Form.png"
+                      alt="React Hook Form"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      React Hook Form
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Router Dom.png"
+                      alt="React Router Dom"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      React Router Dom
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Yup.png"
+                      alt="Yup"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Yup Validation
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col ">
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Javascript.png"
+                      alt="Javascript"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Javascript
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Firebase.png"
+                      alt="Firebase"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Firebase
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Chakra UI.png"
+                      alt="Chakra UI"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Chakra UI
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                href="#"
+                className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px] "
+              >
+                {" "}
+                <a
+                  href="https://artisan-staging-4b2c0.web.app/setup"
+                  target="_blank"
+                >
+                  View website →
+                </a>
+              </button>
+            </div>
+            <div className="bg-artisan bg-cover w-[300px] h-[200px] tt:w-[450px] tt:h-[250px] lt:w-[550px] lt:h-[350px] dt:w-[650px] dt:h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] dt:ml-[64px]"></div>
+          </div>
+
+          <Image
+            className="mt-[120px]"
+            src="/Vector.svg"
+            alt="Vector"
+            width={42}
+            height={10}
+            priority
+          />
+
+          <div className="flex flex-col dt:flex-row mt-[120px] items-center">
+            <div className="order-last dt:order-first bg-smartbrain bg-cover bg-center w-[300px] h-[200px] tt:w-[450px] tt:h-[250px] lt:w-[550px] lt:h-[350px] dt:w-[650px] dt:h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] dt:mr-[64px] mt-[40px] dt:mt-[0px]"></div>
+            <div className="dt:mt-[40px] flex flex-col items-center dt:items-start">
+              <div className="flex flex-col text-left">
+                <h3 className="font-open text-[28px] text-black font-regular mb-[8px] text-center dt:text-left">
+                  Smartbrain
+                </h3>
+                <h4 className="font-open text-[18px] text-[#00B4D8] font-regular text-center dt:text-left">
+                  AI Face Detection App
+                </h4>
+              </div>
+
+              <div className="flex justify-evenly mt-[40px] flex-col tt:flex-row">
+                <div className="flex flex-col mr-[64px]">
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Javascript.png"
+                      alt="Javascript"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Javascript
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/React.png"
+                      alt="React"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      React
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/CSS.png"
+                      alt="CSS"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      CSS
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col ">
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/SQL.png"
+                      alt="SQL"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      PostgreSQL
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Node.png"
+                      alt="Node.js"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Node.js
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                href="#"
+                className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px]  "
+              >
+                <a
+                  href="https://65f062d55dd52100084346c7--warm-axolotl-4d8fc8.netlify.app/"
+                  target="_blank"
+                >
+                  View website →
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <Image
+            className="mt-[120px]"
+            src="/Vector.svg"
+            alt="Vector"
+            width={42}
+            height={10}
+            priority
+          />
+
+          <div className="flex flex-col dt:flex-row mt-[120px] items-center">
+            <div className="mb-[40px] flex flex-col items-center dt:items-start">
+              <div className="flex flex-col text-left">
+                <h3 className="font-open text-[28px] text-black font-regular text-center dt:text-left mb-[8px]">
+                  Stelar TM
+                </h3>
+                <h4 className="font-open text-[18px] text-[#00B4D8] font-regular text-center dt:text-left">
+                  Invoice & Stock Management
+                </h4>
+              </div>
+
+              <div className="flex justify-evenly mt-[40px] flex-col tt:flex-row">
+                <div className="flex flex-col mr-[64px]">
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Javascript.png"
+                      alt="Javascript"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Javascript
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/CSS.png"
+                      alt="CSS"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      CSS
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Tailwind.png"
+                      alt="Tailwind"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Tailwind
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col ">
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Next.png"
+                      alt="Next.js"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Next.js
+                    </p>
+                  </div>
+                  <div className="flex items-center mb-[24px]">
+                    <Image
+                      className="mr-[16px]"
+                      src="/Framer Motion.png"
+                      alt="Framer Motion"
+                      width={50}
+                      height={50}
+                      priority
+                    />
+                    <p className="text-black tracking-[0.5px] leading-[26px]">
+                      Framer Motion
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <button
+                href="#"
+                className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px]"
+              >
+                <a
+                  href="https://stelar-9iatokrmd-dev-edward-ts-projects.vercel.app/"
+                  target="_blank"
+                >
+                  View website →
+                </a>
+              </button>
+            </div>
+            <div className="bg-stelar bg-cover w-[300px] h-[200px] tt:w-[450px] tt:h-[250px] lt:w-[550px] lt:h-[350px] dt:w-[650px] dt:h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px] dt:ml-[64px]"></div>
+          </div>
+
+          <Image
+            className="mt-[120px]"
+            src="/Vector.svg"
+            alt="Vector"
+            width={42}
+            height={10}
+            priority
+          />
+
+          <div className="flex flex-col mt-[120px] items-center">
+            <div className="flex flex-col text-center">
+              <h3 className="font-open text-[28px] text-black font-regular text-center mb-[8px]">
+                Landing pages
+              </h3>
+
+              <h4 className="font-open text-[18px] text-[#00B4D8] font-regular text-center">
+                Various landing pages catered for different needs
+              </h4>
+            </div>
+
+            <div className="flex flex-col dt:flex-row gap-5 mt-[40px] content-center justify-center">
+              <div className="flex items-center mr-[64px]">
+                <Image
+                  className="mr-[16px]"
+                  src="/HTML.png"
+                  alt="HTML"
+                  width={50}
+                  height={50}
+                  priority
+                />
+                <p className="text-black tracking-[0.5px] leading-[26px]">
+                  HTML
+                </p>
+              </div>
+              <div className="flex items-center mr-[64px]">
+                <Image
+                  className="mr-[16px]"
+                  src="/CSS.png"
+                  alt="CSS"
+                  width={50}
+                  height={50}
+                  priority
+                />
+                <p className="text-black tracking-[0.5px] leading-[26px]">
+                  CSS
+                </p>
+              </div>
+              <div className="flex items-center mr-[64px]">
+                <Image
+                  className="mr-[16px]"
+                  src="/CSS Animations.png"
+                  alt="CSS Animations"
+                  width={50}
+                  height={50}
+                  priority
+                />
+                <p className="text-black tracking-[0.5px] leading-[26px]">
+                  CSS Animations
+                </p>
+              </div>
+              <div className="flex items-center mr-[64px]">
+                <Image
+                  className="mr-[16px]"
+                  src="/Sass.png"
+                  alt="Sass"
+                  width={50}
+                  height={50}
+                  priority
+                />
+                <p className="text-black tracking-[0.5px] leading-[26px]">
+                  Sass
+                </p>
+              </div>
+              <div className="flex items-center mr-[64px]">
+                <Image
+                  className="mr-[16px]"
+                  src="/Bootstrap.png"
+                  alt="Bootstrap"
+                  width={50}
+                  height={50}
+                  priority
+                />
+                <p className="text-black tracking-[0.5px] leading-[26px]">
+                  Bootstrap
+                </p>
+              </div>
+            </div>
+
+            <div className="flex flex-col tt:flex-row items-center justify-center mt-[80px]">
+              <div className="mr-[56px]">
+                <div className="bg-admin bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+                <div className="flex items-center mt-[32px]">
+                  <h3 className="font-open text-[28px] text-black font-regular text-left">
+                    Admin
+                  </h3>
+                  <button
+                    href="#"
+                    className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]"
+                  >
+                    <a
+                      href="https://devedwardt.github.io/Finance/"
+                      target="_blank"
+                    >
+                      View website →
+                    </a>
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div className="bg-dashboard bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+                  <div className="flex items-center mt-[32px]">
+                    <h3 className="font-open text-[28px] text-black font-regular text-left">
+                      Dashboard
+                    </h3>
+                    <button
+                      href="#"
+                      className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]"
+                    >
+                      <a
+                        href="https://devedwardt.github.io/Dashboard/"
+                        target="_blank"
+                      >
+                        View website →
+                      </a>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-center mt-[80px]">
+              <div className="mr-[56px]">
+                <div className="bg-play bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+                <div className="flex items-center mt-[32px]">
+                  <h3 className="font-open text-[28px] text-black font-regular text-left">
+                    Clothing store
+                  </h3>
+                  <button className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]">
+                    <a
+                      href="https://devedwardt.github.io/Play/"
+                      target="_blank"
+                    >
+                      {" "}
+                      View website →
+                    </a>{" "}
+                  </button>
+                </div>
+              </div>
+              <div>
+                <div>
+                  <div className="bg-stream bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+                  <div className="flex items-center mt-[32px]">
+                    <h3 className="font-open text-[28px] text-black font-regular text-left">
+                      Streaming service
+                    </h3>
+                    <button className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]">
+                      <a
+                        href="https://devedwardt.github.io/XStream/"
+                        target="_blank"
+                      >
+                        {" "}
+                        View website →
+                      </a>{" "}
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section
+        className="pt-[120px] pb-[20px] justify-center items-center bg-black relative overflow-y-hidden overflow-x-hidden"
+        id="contact"
+      >
+        <div className="flex justify-center items-center flex-col">
+          <h3 className="font-open text-[28px] text-white font-bold text-center">
+            Contact
+          </h3>
+          <Image
+            className="mt-[16px]"
+            src="/Vector.svg"
+            alt="Vector"
+            width={42}
+            height={10}
+            priority
+          />
+          <div className="flex justify-center items-center mt-[64px]">
+            <div className="flex justify-center items-center flex-col">
+              <div className="flex justify-center items-center">
+                <div className="w-[300px] bg-white p-[20px] rounded-[16px] z-20">
+                  <Image
+                    className="mb-[24px]"
+                    src="/Mail.svg"
+                    alt="Mail"
+                    width={50}
+                    height={50}
+                    priority
+                  />
+                  <h4 className="font-open text-[18px] text-black font-semibold mb-[12px]">
+                    Let's get in touch!
+                  </h4>
+                  <div className="mt-[32px]">
+                    <div className="flex mb-[24px]">
+                      <Image
+                        src="/Email.svg"
+                        alt="Email"
+                        width={25}
+                        height={25}
+                        priority
+                      />
+                      <p className="text-black tracking-[0.5px] leading-[26px] text-[16px] ml-[16px] hover:text-[#00B4D8]">
+                        <a href="mailto:devedwardt@gmail.com">Email</a>
+                      </p>
+                    </div>
+                    <div className="flex mb-[24px]">
+                      <Image
+                        src="/Github.svg"
+                        alt="Github"
+                        width={25}
+                        height={25}
+                        priority
+                      />
+                      <p className="text-black tracking-[0.5px] leading-[26px] text-[16px] ml-[16px] hover:text-[#00B4D8]">
+                        <a href="https://github.com/DevEdwardT" target="_blank">
+                          Github
+                        </a>
+                      </p>
+                    </div>
+                    <div className="flex mb-[24px]">
+                      <Image
+                        src="/LinkedIn.svg"
+                        alt="LinkedIn"
+                        width={25}
+                        height={25}
+                        priority
+                      />
+                      <p className="text-black tracking-[0.5px] leading-[26px] text-[16px] ml-[16px] hover:text-[#00B4D8]">
+                        <a
+                          href="https://www.linkedin.com/in/edward-telecan-961873293/"
+                          target="_blank"
+                        >
+                          LinkedIn
+                        </a>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <h4 className="text-[#ffffff] dt:text-[#ADB5BD] tracking-[0.5px] text-[16px] mt-[80px] z-20 text-center shadow-[0_8px_30px_rgb(0,0,0,0.12)] p-[8px] rounded-full">
+            Copyright © 2024. All rights are reserved.
+          </h4>
+        </div>
+        <div className="w-[800px] h-[600px] rounded-[16px] absolute rotate-12 top-64 -right-80 z-[1] bg-gradient-to-r from-[#00B4D8] to-[#4DB6AC]"></div>
+        <div className="w-[800px] h-[600px] rounded-[16px] absolute rotate-12 top-64 -left-80 z-[1]  bg-gradient-to-r from-[#D27E00] to-[#F72B1E] hidden lt:inline-block"></div>
+      </section>
     </main>
   );
 }
