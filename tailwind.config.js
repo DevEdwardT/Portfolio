@@ -8,13 +8,10 @@ module.exports = {
   theme: {
     screens: {
       tt: "600px",
-      // => @media (min-width: 640px) { ... }
 
       lt: "900px",
-      // => @media (min-width: 1024px) { ... }
 
       dt: "1400px",
-      // => @media (min-width: 1280px) { ... }
     },
     extend: {
       fontFamily: {
@@ -33,6 +30,8 @@ module.exports = {
         dashboard: "url('/Dashboard.png')",
         stream: "url('/Stream.png')",
         play: "url('/Play.png')",
+        imagesquare: "url('/bg icons square.png')",
+        imagephone: "url('/bg icons phone.png')",
       },
     },
   },

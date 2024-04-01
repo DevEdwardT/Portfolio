@@ -31,14 +31,14 @@ export default function Home() {
               href="#contact"
               className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px]"
             >
-              <a href="#contact">Contact me</a>
+              <a href="#contact">Contact</a>
             </button>
           </nav>
         </div>
       </header>
 
       <section
-        className="bg-image bg-contain w-dvw h-dvh bg-no-repeat bg-position-bottom bg-center flex justify-center items-center overflow-y-hidden"
+        className="bg-imagephone tt:bg-imagesquare bg-bottom lt:bg-image bg-contain w-dvw h-dvh bg-no-repeat bg-position-bottom flex justify-center items-center overflow-y-hidden"
         id="home"
       >
         <div className="relative w-10/12 tt:w-3/4 lt:w-2/5 flex justify-center items-center flex-col">
@@ -185,7 +185,7 @@ export default function Home() {
               </div>
 
               <div className="flex justify-evenly mt-[40px] flex-col tt:flex-row">
-                <div className="flex flex-col mr-[64px]">
+                <div className="flex flex-col tt:mr-[64px]">
                   <div className="flex items-center mb-[24px]">
                     <Image
                       className="mr-[16px]"
@@ -283,7 +283,7 @@ export default function Home() {
               </div>
               <button
                 href="#"
-                className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px] "
+                className=" hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[18px] tracking-[1px] mt-[40px] "
               >
                 {" "}
                 <a
@@ -319,7 +319,7 @@ export default function Home() {
               </div>
 
               <div className="flex justify-evenly mt-[40px] flex-col tt:flex-row">
-                <div className="flex flex-col mr-[64px]">
+                <div className="flex flex-col tt:mr-[64px]">
                   <div className="flex items-center mb-[24px]">
                     <Image
                       className="mr-[16px]"
@@ -391,7 +391,7 @@ export default function Home() {
               </div>
               <button
                 href="#"
-                className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px]  "
+                className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[18px] tracking-[1px] mt-[40px]  "
               >
                 <a
                   href="https://65f062d55dd52100084346c7--warm-axolotl-4d8fc8.netlify.app/"
@@ -424,7 +424,7 @@ export default function Home() {
               </div>
 
               <div className="flex justify-evenly mt-[40px] flex-col tt:flex-row">
-                <div className="flex flex-col mr-[64px]">
+                <div className="flex flex-col tt:mr-[64px]">
                   <div className="flex items-center mb-[24px]">
                     <Image
                       className="mr-[16px]"
@@ -496,7 +496,7 @@ export default function Home() {
               </div>
               <button
                 href="#"
-                className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] mt-[40px]"
+                className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium  font-sans text-[18px] tracking-[1px] mt-[40px]"
               >
                 <a
                   href="https://stelar-9iatokrmd-dev-edward-ts-projects.vercel.app/"
@@ -529,153 +529,148 @@ export default function Home() {
               </h4>
             </div>
 
-            <div className="flex flex-col dt:flex-row gap-5 mt-[40px] content-center justify-center">
-              <div className="flex items-center mr-[64px]">
-                <Image
-                  className="mr-[16px]"
-                  src="/HTML.png"
-                  alt="HTML"
-                  width={50}
-                  height={50}
-                  priority
-                />
-                <p className="text-black tracking-[0.5px] leading-[26px]">
-                  HTML
-                </p>
+            <div className="flex flex-col tt:flex-row gap-5 mt-[40px] content-center justify-evenly">
+              <div className="flex flex-col dt:flex-row gap-5 mt-[40px] content-center justify-center">
+                <div className="flex items-center tt:mr-[64px]">
+                  <Image
+                    className="mr-[16px]"
+                    src="/HTML.png"
+                    alt="HTML"
+                    width={50}
+                    height={50}
+                    priority
+                  />
+                  <p className="text-black tracking-[0.5px] leading-[26px]">
+                    HTML
+                  </p>
+                </div>
+                <div className="flex items-center tt:mr-[64px]">
+                  <Image
+                    className="mr-[16px]"
+                    src="/CSS.png"
+                    alt="CSS"
+                    width={50}
+                    height={50}
+                    priority
+                  />
+                  <p className="text-black tracking-[0.5px] leading-[26px]">
+                    CSS
+                  </p>
+                </div>
+                <div className="flex items-center tt:mr-[64px]">
+                  <Image
+                    className="mr-[16px]"
+                    src="/CSS Animations.png"
+                    alt="CSS Animations"
+                    width={50}
+                    height={50}
+                    priority
+                  />
+                  <p className="text-black tracking-[0.5px] leading-[26px]">
+                    CSS Animations
+                  </p>
+                </div>
               </div>
-              <div className="flex items-center mr-[64px]">
-                <Image
-                  className="mr-[16px]"
-                  src="/CSS.png"
-                  alt="CSS"
-                  width={50}
-                  height={50}
-                  priority
-                />
-                <p className="text-black tracking-[0.5px] leading-[26px]">
-                  CSS
-                </p>
-              </div>
-              <div className="flex items-center mr-[64px]">
-                <Image
-                  className="mr-[16px]"
-                  src="/CSS Animations.png"
-                  alt="CSS Animations"
-                  width={50}
-                  height={50}
-                  priority
-                />
-                <p className="text-black tracking-[0.5px] leading-[26px]">
-                  CSS Animations
-                </p>
-              </div>
-              <div className="flex items-center mr-[64px]">
-                <Image
-                  className="mr-[16px]"
-                  src="/Sass.png"
-                  alt="Sass"
-                  width={50}
-                  height={50}
-                  priority
-                />
-                <p className="text-black tracking-[0.5px] leading-[26px]">
-                  Sass
-                </p>
-              </div>
-              <div className="flex items-center mr-[64px]">
-                <Image
-                  className="mr-[16px]"
-                  src="/Bootstrap.png"
-                  alt="Bootstrap"
-                  width={50}
-                  height={50}
-                  priority
-                />
-                <p className="text-black tracking-[0.5px] leading-[26px]">
-                  Bootstrap
-                </p>
+              <div className="flex flex-col dt:flex-row gap-5 tt:mt-[40px] content-center justify-start">
+                <div className="flex items-center dt:mr-[64px]">
+                  <Image
+                    className="mr-[16px]"
+                    src="/Sass.png"
+                    alt="Sass"
+                    width={50}
+                    height={50}
+                    priority
+                  />
+                  <p className="text-black tracking-[0.5px] leading-[26px]">
+                    Sass
+                  </p>
+                </div>
+                <div className="flex items-center dt:mr-[64px]">
+                  <Image
+                    className="mr-[16px]"
+                    src="/Bootstrap.png"
+                    alt="Bootstrap"
+                    width={50}
+                    height={50}
+                    priority
+                  />
+                  <p className="text-black tracking-[0.5px] leading-[26px]">
+                    Bootstrap
+                  </p>
+                </div>
               </div>
             </div>
 
-            <div className="flex flex-col tt:flex-row items-center justify-center mt-[80px]">
-              <div className="mr-[56px]">
-                <div className="bg-admin bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
-                <div className="flex items-center mt-[32px]">
-                  <h3 className="font-open text-[28px] text-black font-regular text-left">
-                    Admin
-                  </h3>
-                  <button
-                    href="#"
-                    className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]"
+            <div className="flex flex-col dt:flex-row items-center justify-center mt-[120px]">
+              <div className="dt:mr-[56px] mb-[80px] dt:mb-[0] flex flex-col justify-center items-center">
+                <h3 className="font-open text-[28px] text-black font-regular text-left">
+                  Admin
+                </h3>
+                <div className="my-[20px] bg-admin bg-cover w-[300px] h-[200px] tt:w-[450px] tt:h-[250px] lt:w-[550px] lt:h-[350px] dt:w-[650px] dt:h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+
+                <button
+                  href="#"
+                  className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[18px] tracking-[1px] "
+                >
+                  <a
+                    href="https://devedwardt.github.io/Finance/"
+                    target="_blank"
                   >
-                    <a
-                      href="https://devedwardt.github.io/Finance/"
-                      target="_blank"
-                    >
-                      View website →
-                    </a>
-                  </button>
-                </div>
+                    View website →
+                  </a>
+                </button>
               </div>
-              <div>
-                <div>
-                  <div className="bg-dashboard bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
-                  <div className="flex items-center mt-[32px]">
-                    <h3 className="font-open text-[28px] text-black font-regular text-left">
-                      Dashboard
-                    </h3>
-                    <button
-                      href="#"
-                      className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]"
-                    >
-                      <a
-                        href="https://devedwardt.github.io/Dashboard/"
-                        target="_blank"
-                      >
-                        View website →
-                      </a>
-                    </button>
-                  </div>
-                </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <h3 className="font-open text-[28px] text-black font-regular text-left">
+                  Dashboard
+                </h3>
+                <div className="my-[20px] bg-dashboard bg-cover w-[300px] h-[200px] tt:w-[450px] tt:h-[250px] lt:w-[550px] lt:h-[350px] dt:w-[650px] dt:h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+
+                <button
+                  href="#"
+                  className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium  font-sans text-[18px] tracking-[1px] "
+                >
+                  <a
+                    href="https://devedwardt.github.io/Dashboard/"
+                    target="_blank"
+                  >
+                    View website →
+                  </a>
+                </button>
               </div>
             </div>
 
-            <div className="flex items-center justify-center mt-[80px]">
-              <div className="mr-[56px]">
-                <div className="bg-play bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
-                <div className="flex items-center mt-[32px]">
-                  <h3 className="font-open text-[28px] text-black font-regular text-left">
-                    Clothing store
-                  </h3>
-                  <button className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]">
-                    <a
-                      href="https://devedwardt.github.io/Play/"
-                      target="_blank"
-                    >
-                      {" "}
-                      View website →
-                    </a>{" "}
-                  </button>
-                </div>
+            <div className="flex flex-col dt:flex-row items-center justify-center mt-[120px]">
+              <div className="dt:mr-[56px] mb-[80px] dt:mb-[0] flex flex-col justify-center items-center">
+                <h3 className="font-open text-[28px] text-black font-regular text-left">
+                  Clothing store
+                </h3>
+                <div className="my-[20px] bg-play bg-cover w-[300px] h-[200px] tt:w-[450px] tt:h-[250px] lt:w-[550px] lt:h-[350px] dt:w-[650px] dt:h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+
+                <button className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[18px] tracking-[1px] ">
+                  <a href="https://devedwardt.github.io/Play/" target="_blank">
+                    {" "}
+                    View website →
+                  </a>{" "}
+                </button>
               </div>
-              <div>
-                <div>
-                  <div className="bg-stream bg-cover w-[650px] h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
-                  <div className="flex items-center mt-[32px]">
-                    <h3 className="font-open text-[28px] text-black font-regular text-left">
-                      Streaming service
-                    </h3>
-                    <button className="bg-black hover:bg-[#00B4D8] text-white font-medium py-[10px] px-[20px] rounded-full font-sans text-[18px] tracking-[1px] ml-[56px]">
-                      <a
-                        href="https://devedwardt.github.io/XStream/"
-                        target="_blank"
-                      >
-                        {" "}
-                        View website →
-                      </a>{" "}
-                    </button>
-                  </div>
-                </div>
+
+              <div className="flex flex-col justify-center items-center">
+                <h3 className="font-open text-[28px] text-black font-regular text-left">
+                  Streaming service
+                </h3>
+                <div className="my-[20px] bg-stream bg-cover w-[300px] h-[200px] tt:w-[450px] tt:h-[250px] lt:w-[550px] lt:h-[350px] dt:w-[650px] dt:h-[450px] rounded-[10px] shadow-[rgba(13,_38,_76,_0.19)_0px_9px_20px]"></div>
+
+                <button className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium  font-sans text-[18px] tracking-[1px] ">
+                  <a
+                    href="https://devedwardt.github.io/XStream/"
+                    target="_blank"
+                  >
+                    {" "}
+                    View website →
+                  </a>{" "}
+                </button>
               </div>
             </div>
           </div>
@@ -722,8 +717,43 @@ export default function Home() {
                         height={25}
                         priority
                       />
-                      <p className="text-black tracking-[0.5px] leading-[26px] text-[16px] ml-[16px] hover:text-[#00B4D8]">
+                      <p className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[16px] ml-[16px] tracking-[1px]">
                         <a href="mailto:devedwardt@gmail.com">Email</a>
+                      </p>
+                    </div>
+
+                    <div className="flex mb-[24px]">
+                      <Image
+                        src="/LinkedIn.svg"
+                        alt="LinkedIn"
+                        width={25}
+                        height={25}
+                        priority
+                      />
+                      <p className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[16px] ml-[16px] tracking-[1px]">
+                        <a
+                          href="https://www.linkedin.com/in/edward-telecan-961873293/"
+                          target="_blank"
+                        >
+                          LinkedIn
+                        </a>
+                      </p>
+                    </div>
+                    <div className="flex mb-[24px]">
+                      <Image
+                        src="/upwork.svg"
+                        alt="LinkedIn"
+                        width={25}
+                        height={25}
+                        priority
+                      />
+                      <p className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[16px] ml-[16px] tracking-[1px]">
+                        <a
+                          href="https://www.upwork.com/freelancers/~012000b5952683297b"
+                          target="_blank"
+                        >
+                          Upwork
+                        </a>
                       </p>
                     </div>
                     <div className="flex mb-[24px]">
@@ -734,26 +764,9 @@ export default function Home() {
                         height={25}
                         priority
                       />
-                      <p className="text-black tracking-[0.5px] leading-[26px] text-[16px] ml-[16px] hover:text-[#00B4D8]">
+                      <p className="hover:text-[#00B4D8] text-[#495057] underline underline-offset-4 font-medium font-sans text-[16px] ml-[16px] tracking-[1px]">
                         <a href="https://github.com/DevEdwardT" target="_blank">
                           Github
-                        </a>
-                      </p>
-                    </div>
-                    <div className="flex mb-[24px]">
-                      <Image
-                        src="/LinkedIn.svg"
-                        alt="LinkedIn"
-                        width={25}
-                        height={25}
-                        priority
-                      />
-                      <p className="text-black tracking-[0.5px] leading-[26px] text-[16px] ml-[16px] hover:text-[#00B4D8]">
-                        <a
-                          href="https://www.linkedin.com/in/edward-telecan-961873293/"
-                          target="_blank"
-                        >
-                          LinkedIn
                         </a>
                       </p>
                     </div>
